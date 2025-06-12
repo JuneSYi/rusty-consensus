@@ -1,15 +1,9 @@
-[workspace.package]
+[package]
+name = "rusty-consensus"
 version = "0.1.0"
+edition = "2024"
 description = "Raft consensus algorithm in Rust"
 authors = ["June Yi"]
 license = "MIT"
-edition = "2024"
 
-[workspace]
-members = [
-    "crates/cli", 
-    "crates/kvdb", 
-    "crates/net", 
-    "crates/raft",
-]
-resolver = "2"
+[dependencies]

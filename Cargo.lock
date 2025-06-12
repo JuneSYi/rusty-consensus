@@ -3,25 +3,5 @@
 version = 4
 
 [[package]]
-name = "cli"
-version = "0.1.0"
-dependencies = [
- "kvdb",
- "net",
- "raft",
-]
-
-[[package]]
-name = "kvdb"
-version = "0.1.0"
-dependencies = [
- "raft",
-]
-
-[[package]]
-name = "net"
-version = "0.1.0"
-
-[[package]]
-name = "raft"
+name = "rusty-consensus"
 version = "0.1.0"
