@@ -1,13 +1,15 @@
-[package]
-name = "raft-kvdb"
+[workspace.package]
 version = "0.1.0"
+description = "Raft consensus algorithm in Rust"
+authors = ["June Yi"]
+license = "MIT"
 edition = "2024"
-
-[dependencies]
-tokio = { version = "1", features = ["full"] }
 
 [workspace]
 members = [
-    ""
+    "crates/cli", 
+    "crates/kvdb", 
+    "crates/net", 
+    "crates/raft",
 ]
 resolver = "2"
