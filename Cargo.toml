@@ -7,3 +7,4 @@ authors = ["June Yi"]
 license = "MIT"
 
 [dependencies]
+bincode = "2.0.1"
